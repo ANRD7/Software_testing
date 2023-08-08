@@ -6,9 +6,11 @@ def Exponential_range(a,b):
         print("Both NOT in range")
     else:
         if a not in range(11):
-            print("A NOT in range")
+            print("A is NOT in range")
         elif b not in range(6):
-            print("B NOT in range")
+            print("B is NOT in range")
         else:
-            return a**b    
+            print(a**b)
+
+        
 Exponential_range(a,b)
