@@ -10,6 +10,8 @@ n = int(input("Enter a number: "))
 
 if n>100 :
     print("Invalid Range")
+elif n==0:
+    print("Neither Prime nor Composite")
 else:
 
     if is_prime(n):
